@@ -44,7 +44,7 @@
                 <TextBox Grid.Column="1" Text="{Binding TargetPerson.Alter}"/>
             </ItemsControl>
             <ItemsControl>
-                <Button Width="120" Height="30" Margin="10" Content="Hinzufügen" Command="{Binding AddCommand}" Click="Button_Click"/>
+                <Button Width="120" Height="30" Margin="10" Content="Hinzufügen" Command="{Binding AddCommand}"/>
                 <Button Grid.Column="1" Width="120" Height="30" Margin="10" Content="Löschen" Command="{Binding DeleteCommand}" CommandParameter="{Binding SelectedItem, ElementName=PersonsList}"/>
             </ItemsControl>
 
