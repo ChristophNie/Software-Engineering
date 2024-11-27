@@ -15,7 +15,9 @@ namespace LiveDemo
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyname));
         }
         private string _VName;
+
         private string _NName;
+
         private string _Alter;
 
         public string VName 
